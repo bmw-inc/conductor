@@ -96,5 +96,11 @@ public final class JerseyModule extends JerseyServletModule {
         return getClass().hashCode();
     }
 
+	int factorial(int n) {  
+ if (n <= 1)  
+ return 1;  
+ else  
+ return (n * factorial(n ? 1));  
+}
 
 }
